@@ -1,0 +1,35 @@
+[
+    {
+      "id": 0,
+      "name": "Phone Pocket",
+      "cat": "MERN Stack",
+      "img1": "https://ibb.co/G5MF9gc",
+      "img2": "https://ibb.co/7Nhcb2P",
+      "img3": "https://ibb.co/X2QhTy2",
+      "language": "HTML, CSS, JavScript, ReactJS",
+      "tech": "TailwindCSS, React Flowbite, React Router, Firebase, MongoDB",
+      "desc": "Phone Pocket is a resale website where users can buy or sell used phones under three categories. An admin/seller/user has their own privileges. Admin can delete any user/seller or verify a seller, seller can advertise his/her products and also delete them if he/she wants to. A user can sign in and buy products or add any products to wishlist."
+    },
+    {
+      "id": 1,
+      "name": "Bit Masters",
+      "cat": "MERN Stack",
+      "img1": "https://ibb.co/T1wpjxr",
+      "img2": "https://ibb.co/z69LdFZ",
+      "img3": "https://ibb.co/XDPmC6Z",
+      "language": "HTML, CSS, JavScript, ReactJS",
+      "tech": "TailwindCSS, React Flowbite, React Router, Firebase, MongoDB",
+      "desc": "Bit Masters is a fun learning platform where firstly user lands on the home page. Home page has a navbar and a card.The navbar contains logo, site name, route options, a toggle button and user image. If you click on the 'Take A Tour' button it'll redirect you to the category page where you can find various categories of courses. Click on 'Our Courses' and you can see all the courses available under the respective category, you can also see the categories of the courses under the navigation bar. If you want to get access , click the 'Get Access' button. click the download file button if you want to download the course details as a PDF File.FAQ page displays some common ques with answers about the website, and the blog page holds some ques and answers."
+    },
+    {
+      "id": 2,
+      "name": "Lens Eye Photography",
+      "cat": "MERN Stack",
+      "img1": "https://ibb.co/WpM11pD",
+      "img2": "https://ibb.co/48Zvf1p",
+      "img3": "https://ibb.co/t2Q5XH5",
+      "language": "HTML, CSS, JavScript, ReactJS",
+      "tech": "TailwindCSS, React Flowbite, React Router, Firebase, MongoDB",
+      "desc": "Lens Eye Photography where creator provides various kind of photography services for events, product, wildlife etc. User First lands on the home page where he can find a banner, a slider and limited number of services. As soon as the user clicks all services Button he/she should find all the sevices. To see the service details the user should be logged in, if not he/she should be redirected to the login page, user can register clicking the 'Register' button. As user see the details, he can also see the reviews for the respected service. If there is no review 'No reviews yet', dialouge is displayed. Dynamic title can also be viewed by the user. User can also post his/her review for the service. User can see his commited reviews on the my reviews route. He/She can also edit or delete his reviews."
+    }
+  ]

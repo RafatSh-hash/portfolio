@@ -7,7 +7,7 @@ const Navigation = () => {
         <div>
             <nav class="flex items-center justify-between flex-wrap bg-transparent p-6 px-10 fixed w-full z-10">
 		<div class="flex items-center flex-shrink-0 text-white mr-6">
-        <img className='w-14 h-14 mx-10' src={Logo} alt="Logo"/>
+        <img className='w-14 h-14 mx-20' src={Logo} alt="Logo"/>
 		</div>
 		<div class="block lg:hidden">
 			<button class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white">
