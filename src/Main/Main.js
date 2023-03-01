@@ -5,6 +5,7 @@ import Navigation from '../Components/Shared/Navigation';
 import Home from '../Components/Home/Home';
 import Projects from '../Components/Projects/Projects';
 import Welcome from '../Components/Welcome/Welcome';
+import Skills from '../Components/Skills/Skills';
 
 const Main = () => {
     return (
@@ -13,6 +14,7 @@ const Main = () => {
             <Home></Home>
             <Welcome></Welcome>
             <Projects></Projects>
+            <Skills></Skills>
             <Foot></Foot>
         </div>
     );
