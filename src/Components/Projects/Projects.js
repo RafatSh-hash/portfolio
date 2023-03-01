@@ -5,10 +5,10 @@ const Projects = () =>{
     
     return(
         <div className='w-[90%] mx-auto my-20'>
-            <h1 style={{fontFamily: 'Fira Code'}} className='text-5xl text-right my-20 text-white font-bold'>Here are some of the projects I built</h1>
-            <h1 style={{fontFamily: 'Fira Code'}} className='text-5xl text-right my-20 text-white font-bold'>MERN Stack projects</h1>
+            <h1 style={{fontFamily: 'Fira Code'}} className='text-5xl text-center my-20 text-white font-bold'>Here are some of the projects I built</h1>
+            <h1 style={{fontFamily: 'Fira Code'}} className='text-5xl text-left my-20 text-white font-bold'>MERN Stack projects</h1>
         <div className='flex flex-row sm:flex-col md:flex-row  w-[90%] mx-auto justify-evenly'>
-            <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl bg-gray-300">
+            <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl border-4 border-black bg-gray-300">
   <img class="w-full h-auto" src="https://i.ibb.co/W3pDbvP/PPd.png" alt="Phone Pocket"/>
   <div class="px-6 py-6">
     <div class="font-bold text-2xl mb-2 text-center">Phone Pocket</div>
@@ -23,7 +23,7 @@ const Projects = () =>{
     
   </div>
             </div>
-            <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl bg-gray-300">
+            <div class="max-w-sm rounded-2xl border-4 border-black overflow-hidden shadow-2xl bg-gray-300">
   <img class="w-full h-auto" src="https://i.ibb.co/bF6qwM7/Bit-Masters.png" alt="Phone Pocket"/>
   <div class="px-6 py-6">
     <div class="font-bold text-2xl mb-2 text-center">Bit Masters</div>
@@ -37,7 +37,7 @@ const Projects = () =>{
     
   </div>
             </div>
-            <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl bg-gray-300">
+            <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl border-4 border-black bg-gray-300">
   <img class="w-full h-auto" src="https://i.ibb.co/QPFScDM/LE2.png" alt="Phone Pocket"/>
   <div class="px-6 py-6">
     <div class="font-bold text-2xl mb-2 text-center">Lens Eye Photography</div>
@@ -55,7 +55,7 @@ const Projects = () =>{
         </div>
          <h1 style={{fontFamily: 'Fira Code'}} className='text-5xl text-left my-32 text-white font-bold'>JavaScript projects</h1>
              <div className='flex flex-row sm:flex-col md:flex-row  w-[90%] mx-auto justify-evenly'>
-            <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl bg-gray-300">
+            <div class="max-w-sm rounded-2xl overflow-hidden border-4 border-black shadow-2xl bg-gray-300">
   <img class="w-full h-auto" src="https://i.ibb.co/g7vqKdt/DN1.png" alt="Phone Pocket"/>
   <div class="px-6 py-6">
     <div class="font-bold text-2xl mb-2 text-center">Dragon News</div>
@@ -70,7 +70,7 @@ const Projects = () =>{
     
   </div>
             </div>
-            <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl bg-gray-300">
+            <div class="max-w-sm rounded-2xl overflow-hidden border-4 border-black shadow-2xl bg-gray-300">
   <img class="w-full h-auto" src="https://i.ibb.co/bF6qwM7/Bit-Masters.png" alt="Phone Pocket"/>
   <div class="px-6 py-6">
     <div class="font-bold text-2xl mb-2 text-center">Bit Masters</div>
@@ -84,7 +84,7 @@ const Projects = () =>{
     
   </div>
             </div>
-            <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl bg-gray-300">
+            <div class="max-w-sm rounded-2xl overflow-hidden border-4 border-black shadow-2xl bg-gray-300">
   <img class="w-full h-auto" src="https://i.ibb.co/QPFScDM/LE2.png" alt="Phone Pocket"/>
   <div class="px-6 py-6">
     <div class="font-bold text-2xl mb-2 text-center">Lens Eye Photography</div>
@@ -100,9 +100,9 @@ const Projects = () =>{
   </div>
             </div>
         </div>
-         <h1 style={{fontFamily: 'Fira Code'}} className='text-5xl text-right my-32 text-white font-bold'>HTML, CSS projects</h1>
+         <h1 style={{fontFamily: 'Fira Code'}} className='text-5xl text-left my-32 text-white font-bold'>HTML, CSS projects</h1>
          <div className='flex flex-row sm:flex-col md:flex-row  w-[90%] mx-auto justify-evenly'>
-            <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl bg-gray-300">
+            <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl border-4 border-black bg-gray-300">
   <img class="w-full h-auto" src="https://i.ibb.co/g7vqKdt/DN1.png" alt="Phone Pocket"/>
   <div class="px-6 py-6">
     <div class="font-bold text-2xl mb-2 text-center">Dragon News</div>
@@ -117,7 +117,7 @@ const Projects = () =>{
     
   </div>
             </div>
-            <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl bg-gray-300">
+            <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl border-4 border-black bg-gray-300">
   <img class="w-full h-auto" src="https://i.ibb.co/bF6qwM7/Bit-Masters.png" alt="Phone Pocket"/>
   <div class="px-6 py-6">
     <div class="font-bold text-2xl mb-2 text-center">Bit Masters</div>
@@ -131,7 +131,7 @@ const Projects = () =>{
     
   </div>
             </div>
-            <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl bg-gray-300">
+            <div class="max-w-sm rounded-2xl overflow-hidden shadow-2xl border-4 border-black bg-gray-300">
   <img class="w-full h-auto" src="https://i.ibb.co/QPFScDM/LE2.png" alt="Phone Pocket"/>
   <div class="px-6 py-6">
     <div class="font-bold text-2xl mb-2 text-center">Lens Eye Photography</div>

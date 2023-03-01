@@ -18,55 +18,55 @@ const Skills = () => {
             <h1 style={{fontFamily: 'Fira Code'}} className='text-4xl text-left my-24 text-white font-bold'>Good at</h1>
             <div className="my-20 flex flex-row flex-wrap md:flex-row sm:flex-col w-full justify-evenly align-middle">
                 <div>
-                    <img className="w-44 h-44 bg-red-700 p-5 rounded-full" src={HTML}/>
+                    <img className="w-44 h-44 bg-red-900 p-5 rounded-full" src={HTML}/>
                     <h1 className="font-bold text-white my-3 text-center">HTML/HTML5</h1>
                 </div>
             <div>
-                <img className="w-44 h-44 bg-red-700 p-5 rounded-full" src={CSS}/>
+                <img className="w-44 h-44 bg-red-900 p-5 rounded-full" src={CSS}/>
                 <h1 className="font-bold text-white my-3 text-center">CSS/CSS3</h1>
             </div>
             <div>
-                <img className="w-44 h-44 bg-red-700 p-5 rounded-full" src={Tailwind}/>
+                <img className="w-44 h-44 bg-red-900 p-5 rounded-full" src={Tailwind}/>
                 <h1 className="font-bold text-white my-3 text-center">TailwindCSS</h1>
             </div>
             <div>
-                <img className="w-44 h-44 bg-red-700 p-5 rounded-full" src={Bootstrap}/>
+                <img className="w-44 h-44 bg-red-900 p-5 rounded-full" src={Bootstrap}/>
                 <h1 className="font-bold text-white my-3 text-center">Bootstrap 5</h1>
             </div>
             <div>
-                <img className="w-44 h-44 bg-red-700 p-5 rounded-full" src={JS}/>
+                <img className="w-44 h-44 bg-red-900 p-5 rounded-full" src={JS}/>
                 <h1 className="font-bold text-white my-3 text-center">JavaScript</h1>
             </div>
             <div>
-                <img className="w-44 h-44 bg-red-700 p-5 rounded-full" src={ReactLogo}/>
+                <img className="w-44 h-44 bg-red-900 p-5 rounded-full" src={ReactLogo}/>
                 <h1 className="font-bold text-white my-3 text-center">ReactJS</h1>
             </div>
             
             </div>
-            <h1 style={{fontFamily: 'Fira Code'}} className='text-4xl text-right my-24 text-white font-bold'>Familiar with</h1>
+            <h1 style={{fontFamily: 'Fira Code'}} className='text-4xl text-left my-24 text-white font-bold'>Familiar with</h1>
             <div className="my-20 flex flex-row flex-wrap md:flex-row sm:flex-col w-full justify-evenly">
                 <div>
-                <img className="w-44 h-44 bg-red-700 p-5 rounded-full" src={Node}/>
+                <img className="w-44 h-44 bg-red-900 p-5 rounded-full" src={Node}/>
                 <h1 className="font-bold text-white my-3 text-center">Nodejs</h1>
             </div>
             <div>
-                <img className="w-44 h-44 bg-red-700 p-5 rounded-full" src={Firebase}/>
+                <img className="w-44 h-44 bg-red-900 p-5 rounded-full" src={Firebase}/>
                 <h1 className="font-bold text-white my-3 text-center">Firebase</h1>
             </div>
             <div>
-                <img className="w-44 h-44 bg-red-700 p-5 rounded-full" src={MongoDB}/>
+                <img className="w-44 h-44 bg-red-900 p-5 rounded-full" src={MongoDB}/>
                 <h1 className="font-bold text-white my-3 text-center">MongoDB</h1>
             </div>
             <div>
-                <img className="w-44 h-44 bg-red-700 p-5 rounded-full" src={JWT}/>
+                <img className="w-44 h-44 bg-red-900 p-5 rounded-full" src={JWT}/>
                 <h1 className="font-bold text-white my-3 text-center">JWT</h1>
             </div>
             <div>
-                <img className="w-44 h-44 bg-red-700 p-5 rounded-full" src={Flowbite}/>
+                <img className="w-44 h-44 bg-red-900 p-5 rounded-full" src={Flowbite}/>
                 <h1 className="font-bold text-white my-3 text-center">Flowbite React</h1>
             </div>
             <div>
-                <img className="w-44 h-44 bg-red-700 p-5 rounded-full" src={Figma}/>
+                <img className="w-44 h-44 bg-red-900 p-5 rounded-full" src={Figma}/>
                 <h1 className="font-bold text-white my-3 text-center">Figma</h1>
             </div>
 
