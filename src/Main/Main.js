@@ -1,5 +1,5 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+
 import Foot from '../Components/Shared/Foot/Foot';
 import Navigation from '../Components/Shared/Navigation';
 import Home from '../Components/Home/Home';
@@ -10,7 +10,6 @@ const Main = () => {
     return (
         <div>
             <Navigation></Navigation>
-            {/* <Outlet></Outlet> */}
             <Home></Home>
             <Welcome></Welcome>
             <Projects></Projects>
