@@ -1,21 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from "../../../src/Assets/Logo.png"
+import { FaGithub } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
 
 const Navigation = () => {
     return (
         <div >
-            <nav class="flex items-center justify-between flex-wrap bg-transparent p-6 px-10  w-full  ">
+
+            <nav class="flex items-center justify-between bg-transparent p-6 px-10  w-full  ">
+							
 		<div class="flex items-center flex-shrink-0 text-white mr-6">
         <img className='w-14 h-14 mx-20' src={Logo} alt="Logo"/>
 		</div>
-		<div class="block lg:hidden">
-			<button class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white">
-				expand
-			</button>
-		</div>
-		<div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-			<div class="text-sm lg:flex-grow ">
+		
+		<div class=" lg:flex lg:flex-row lg:items-center  sm:flex sm:flex-row">
+			<div class="text-sm lg:flex lg:flex-row sm:flex sm:flex-row">
 				<Link to={""} class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-yellow-200 mr-4">
 					About
 				</Link>
@@ -30,7 +32,39 @@ const Navigation = () => {
 				</Link>
 			</div>
 		</div>
+
 	</nav>
+					<div className='fixed top-0 w-full justify-end lg:block sm:hidden md:block'>
+					<div className="h-15 flex flex-col ">
+        <a target={"_blank"} href="https://github.com/RafatSh-hash">
+          <button className="text-2xl mt-10 w-32 text-white mx-2">
+            <FaGithub></FaGithub>
+          </button>
+        </a>
+        <a
+          target={"_blank"}
+          href="https://www.linkedin.com/in/sadman-yasir-rafat/"
+        >
+          {" "}
+          <button className="text-2xl mt-10 text-white mx-2">
+            <FaLinkedin></FaLinkedin>
+          </button>
+        </a>
+        <a
+          target={"_blank"}
+          href="https://www.instagram.com/sadman_yasir_rafat/"
+        >
+          <button className="text-2xl mt-10 text-white mx-2">
+            <FaInstagram></FaInstagram>
+          </button>
+        </a>
+        <a target={"_blank"} href="https://www.facebook.com/sadmanyasirrafat">
+          <button className="text-2xl mt-10 text-white mx-2">
+            <FaFacebook></FaFacebook>
+          </button>
+        </a>
+      </div>
+			</div>
         </div>
     );
 };
