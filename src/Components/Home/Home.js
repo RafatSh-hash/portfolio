@@ -17,6 +17,7 @@ const Home = () => {
               "<MERN stack developer",
               "<Junior Web Developer",
               "<ReactJS Developer",
+              "<Front-end Developer"
             ]}
             loop={10}
             cursor

@@ -16,14 +16,14 @@ const Skills = () => {
         <div className="w-[90%] mx-auto">
             <h1 style={{fontFamily: 'Fira Code'}} className='text-5xl text-left my-32 text-white font-bold'>Skills I Have</h1>
             <h1 style={{fontFamily: 'Fira Code'}} className='text-4xl text-left my-24 text-white font-bold'>Good at</h1>
-            <div className="my-20 flex flex-row flex-wrap md:flex-row sm:flex-col w-full justify-evenly">
+            <div className="my-20 flex flex-row flex-wrap md:flex-row sm:flex-col w-full justify-evenly align-middle">
                 <div>
                     <img className="w-44 h-44 bg-red-700 p-5 rounded-full" src={HTML}/>
-                    <h1 className="font-bold text-white my-3 text-center">HTML</h1>
+                    <h1 className="font-bold text-white my-3 text-center">HTML/HTML5</h1>
                 </div>
             <div>
                 <img className="w-44 h-44 bg-red-700 p-5 rounded-full" src={CSS}/>
-                <h1 className="font-bold text-white my-3 text-center">CSS</h1>
+                <h1 className="font-bold text-white my-3 text-center">CSS/CSS3</h1>
             </div>
             <div>
                 <img className="w-44 h-44 bg-red-700 p-5 rounded-full" src={Tailwind}/>
@@ -31,7 +31,7 @@ const Skills = () => {
             </div>
             <div>
                 <img className="w-44 h-44 bg-red-700 p-5 rounded-full" src={Bootstrap}/>
-                <h1 className="font-bold text-white my-3 text-center">Bootstrap</h1>
+                <h1 className="font-bold text-white my-3 text-center">Bootstrap 5</h1>
             </div>
             <div>
                 <img className="w-44 h-44 bg-red-700 p-5 rounded-full" src={JS}/>
@@ -43,7 +43,7 @@ const Skills = () => {
             </div>
             
             </div>
-            <h1 style={{fontFamily: 'Fira Code'}} className='text-4xl text-left my-24 text-white font-bold'>Familiar with</h1>
+            <h1 style={{fontFamily: 'Fira Code'}} className='text-4xl text-right my-24 text-white font-bold'>Familiar with</h1>
             <div className="my-20 flex flex-row flex-wrap md:flex-row sm:flex-col w-full justify-evenly">
                 <div>
                 <img className="w-44 h-44 bg-red-700 p-5 rounded-full" src={Node}/>
