@@ -34,32 +34,34 @@ const Navigation = () => {
 		</div>
 
 	</nav>
-					<div className='fixed top-0 w-full justify-end lg:block sm:hidden md:block'>
+					<div className='fixed  w-14 top-[40%] bg-black shadow-md shadow-white rounded-lg justify-center align-middle lg:block sm:hidden md:block'>
 					<div className="h-15 flex flex-col ">
-        <a target={"_blank"} href="https://github.com/RafatSh-hash">
-          <button className="text-2xl mt-10 w-32 text-white mx-2">
+        <a title="@Github/RafatSh-hash" target={"_blank"} href="https://github.com/RafatSh-hash">
+          <button className="text-2xl mt-5 w-32 text-white mx-2 px-2">
             <FaGithub></FaGithub>
           </button>
         </a>
         <a
           target={"_blank"}
+          title="Shadman Easir Rafat"
           href="https://www.linkedin.com/in/sadman-yasir-rafat/"
         >
           {" "}
-          <button className="text-2xl mt-10 text-white mx-2">
+          <button className="text-2xl mt-10 text-white mx-2 px-2">
             <FaLinkedin></FaLinkedin>
           </button>
         </a>
         <a
           target={"_blank"}
+          title="sadman_yasir_rafat"
           href="https://www.instagram.com/sadman_yasir_rafat/"
         >
-          <button className="text-2xl mt-10 text-white mx-2">
+          <button className="text-2xl mt-10 text-white mx-2 px-2">
             <FaInstagram></FaInstagram>
           </button>
         </a>
-        <a target={"_blank"} href="https://www.facebook.com/sadmanyasirrafat">
-          <button className="text-2xl mt-10 text-white mx-2">
+        <a title="@sadmanyasirrafat" target={"_blank"} href="https://www.facebook.com/sadmanyasirrafat">
+          <button className="text-2xl mt-10 mb-5 text-white mx-2 px-2">
             <FaFacebook></FaFacebook>
           </button>
         </a>
