@@ -19,7 +19,7 @@ const Contact = () => {
 <div class="flex flex-col items-start justify-between w-full px-10 pt-5 pb-20 lg:pt-20 lg:flex-row">
    <div class="relative z-10 w-full max-w-2xl mt-20 lg:mt-0 lg:w-10/12">
       <div class="relative z-10 flex flex-col items-start justify-start p-10 bg-white shadow-2xl rounded-xl">
-         <h4 class="w-full text-4xl font-bold leading-snug">Send me a Hello!</h4>
+         <h4 class="w-full text-4xl font-bold leading-snug">Feel free to say Hello!</h4>
          <form class="relative w-full mt-6 space-y-8">
             <div class="relative">
                <label class="absolute px-2 ml-2 -mt-3 font-medium text-gray-600 bg-white">Name</label>
