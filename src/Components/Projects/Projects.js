@@ -21,13 +21,13 @@ const Projects = () => {
       >
         MERN Stack projects
       </h1>
-      <div className="flex flex-row sm:flex-col md:flex-row  w-[90%] mx-auto justify-evenly">
-        <div className="bg-gray-400 rounded-lg transform transition duration-2000 hover:scale-125">
+      <div className="flex flex-row sm:flex-col md:flex-row min-[320px]:flex-col  w-[90%] mx-auto justify-evenly">
+        <div className="bg-gray-400 lg:w-[28%] rounded-lg transform transition duration-2000 hover:scale-125">
           <div class="relative w-full h-72 rounded-lg">
             <img
               src="https://i.ibb.co/WsYs0TJ/rsz-pp.png"
               alt="Example image"
-              className=" p-5 h-64 transform transition duration-500 hover:scale-110 w-96 rounded-lg"
+              className=" p-5 h-full transform transition duration-500 hover:scale-110 w-full rounded-lg"
             />
             <p class="font-bold text-xl pb-5 text-center text-yellow-100">
               Phone-Pocket
@@ -52,12 +52,12 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-400 rounded-lg transform transition duration-2000 hover:scale-125">
+        <div className="bg-gray-400 lg:w-[28%] rounded-lg transform transition duration-2000 hover:scale-125">
           <div class="relative w-full h-72 rounded-lg">
             <img
               src="https://i.ibb.co/hZMb385/GST-Rate-for-Photography-Services.png"
               alt="Example image"
-              className=" p-5 h-64 transform transition duration-500 hover:scale-110 w-96 rounded-lg"
+              className=" p-5 h-full transform transition duration-500 hover:scale-110 w-full rounded-lg"
             />
             <p class="font-bold text-xl pb-5 text-center text-yellow-100">
               Lens Eye Photography
@@ -82,12 +82,12 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-400 rounded-lg transform transition duration-2000 hover:scale-125">
+        <div className="bg-gray-400 lg:w-[28%] rounded-lg transform transition duration-2000 hover:scale-125">
           <div class="relative w-full h-72 rounded-lg">
             <img
               src="https://i.ibb.co/bF6qwM7/Bit-Masters.png"
               alt="Example image"
-              className=" p-5 h-64 transform transition duration-500 hover:scale-110 w-96 rounded-lg"
+              className=" p-5 h-full transform transition duration-500 hover:scale-110 w-full rounded-lg"
             />
             <p class="font-bold text-xl pb-5 text-center text-yellow-100">
               Bit Masters
@@ -119,13 +119,13 @@ const Projects = () => {
       >
         JavaScript projects
       </h1>
-      <div className="flex flex-row sm:flex-col md:flex-row  w-[90%] mx-auto justify-evenly">
-        <div className="bg-gray-400 rounded-lg transform transition duration-2000 hover:scale-125">
+      <div className="flex flex-row sm:flex-col md:flex-row min-[320px]:flex-col w-[90%] mx-auto justify-evenly">
+        <div className="bg-gray-400 lg:w-[28%] rounded-lg transform transition duration-2000 hover:scale-125">
           <div class="relative w-full h-72 rounded-lg">
             <img
               src="https://i.ibb.co/rvmsbc6/CG1.png"
               alt="Example image"
-              className=" p-5 h-64 transform transition duration-500 hover:scale-110 w-96 rounded-lg"
+              className=" p-5 h-full transform transition duration-500 hover:scale-110 w-full rounded-lg"
             />
             <p class="font-bold text-xl pb-5 text-center text-yellow-100">
               Code Genius
@@ -150,12 +150,12 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-400 rounded-lg transform transition duration-2000 hover:scale-125">
+        <div className="bg-gray-400 lg:w-[28%] rounded-lg transform transition duration-2000 hover:scale-125">
           <div class="relative w-full h-72 rounded-lg">
             <img
               src="https://i.ibb.co/g7vqKdt/DN1.png"
               alt="Example image"
-              className=" p-5 h-64 transform transition duration-500 hover:scale-110 w-96 rounded-lg"
+              className=" p-5 h-full transform transition duration-500 hover:scale-110 w-full rounded-lg"
             />
             <p class="font-bold text-xl pb-5 text-center text-yellow-100">
               Dragon News
@@ -180,12 +180,12 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-400 rounded-lg transform transition duration-2000 hover:scale-125">
+        <div className="bg-gray-400 lg:w-[28%] rounded-lg transform transition duration-2000 hover:scale-125">
           <div class="relative w-full h-72 rounded-lg">
             <img
               src="https://i.ibb.co/QdN1kwJ/screencapture-cool-truffle-9beffd-netlify-app-2023-03-02-14-05-16.png"
               alt="Example image"
-              className=" p-5 h-64 transform transition duration-500 hover:scale-110 w-96 rounded-lg"
+              className=" p-5 h-full transform transition duration-500 hover:scale-110 w-full rounded-lg"
             />
             <p class="font-bold text-xl pb-5 text-center text-yellow-100">
               Type Monster
@@ -215,7 +215,7 @@ const Projects = () => {
       <div className='flex flex-row sm:flex-col md:flex-row  w-[90%] mx-auto justify-evenly'>
         <div className='bg-gray-400 rounded-lg transform transition duration-2000 hover:scale-125'>
                 <div class="relative w-full h-72 rounded-lg">
-  <img src="https://i.ibb.co/QdN1kwJ/screencapture-cool-truffle-9beffd-netlify-app-2023-03-02-14-05-16.png" alt="Example image" className=" p-5 h-64 transform transition duration-500 hover:scale-110 w-96 rounded-lg"/>
+  <img src="https://i.ibb.co/QdN1kwJ/screencapture-cool-truffle-9beffd-netlify-app-2023-03-02-14-05-16.png" alt="Example image" className=" p-5 h-full transform transition duration-500 hover:scale-110 w-full rounded-lg"/>
   <p class="font-bold text-xl pb-5 text-center text-yellow-100">Type Monster</p>
   <div class="absolute inset-0 bg-gray-800 opacity-0 hover:opacity-90 flex justify-center items-center h-72">
      <Link ><span style={{ fontFamily: 'Fira Code' }} class="inline-block bg-blue-600 rounded-lg px-3 py-1 font-semibold text-white mr-2 mb-2 text-lg">Live Site</span>
