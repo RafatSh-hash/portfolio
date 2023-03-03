@@ -1,11 +1,12 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+
 
 const Projects = () => {
-  const [showShade, setShowShade] = useState(false);
+  
 
-  const toggleShade = () => setShowShade(!showShade);
+  
 
   return (
     <div className="w-[90%] mx-auto my-20">
