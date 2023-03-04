@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import Logo from "../../../src/Assets/Logo.png";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -22,26 +22,46 @@ const Navigation = () => {
         <div class=" lg:flex lg:flex-row lg:items-center  sm:flex sm:flex-row">
           <div class="text-sm lg:flex lg:flex-row sm:flex sm:flex-row">
             <Link
-              to={""}
-              class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-yellow-200 mr-4"
+              style={{ cursor: "pointer" }}
+              to="About"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-yellow-200 mr-4"
             >
               About
             </Link>
             <Link
-              to={""}
-              class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-yellow-200 mr-4"
+              style={{ cursor: "pointer" }}
+              to="Projects"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-yellow-200 mr-4"
             >
               Projects
             </Link>
             <Link
-              to={""}
-              class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-yellow-200 mr-4"
+              style={{ cursor: "pointer" }}
+              to="Skills"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-yellow-200 mr-4"
             >
               Skills
             </Link>
             <Link
-              to={""}
-              class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-yellow-200 mr-4"
+              style={{ cursor: "pointer" }}
+              to="Contact"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-yellow-200 mr-4"
             >
               Contact
             </Link>

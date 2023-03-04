@@ -1,10 +1,15 @@
 import React from "react";
 import Lottie from "lottie-react";
 import ContactLottie from "../../Assets/Contact.json";
+import { Accordion } from "flowbite-react";
+import { FaArrowCircleDown } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="w-[90%] mx-auto my-20">
+    <div
+      className="w-[90%] mx-auto my-20"
+      id="About"
+    >
       <h1 className="text-5xl text-center my-10 text-white font-bold">
         Lets Talk about everything
       </h1>
@@ -20,10 +25,10 @@ const Contact = () => {
           <div class="flex flex-col items-start justify-between w-full px-10 pt-5 pb-20 lg:pt-20 lg:flex-row">
             <div class="relative z-10 w-full max-w-2xl mt-20 lg:mt-0 lg:w-10/12">
               <div class="relative z-10 flex flex-col items-start justify-start p-10 bg-white shadow-2xl rounded-xl">
-                <h4 class="w-full text-4xl font-bold leading-snug">
-                  Feel free to say Hello!
+                <h4 class="w-full text-4xl text-center font-bold leading-snug mb-5">
+                  ABCD's About Me &#128513;
                 </h4>
-                <form class="relative w-full mt-6 space-y-8">
+                {/* <form class="relative w-full mt-6 space-y-8">
                   <div class="relative">
                     <label class="absolute px-2 ml-2 -mt-3 font-medium text-gray-600 bg-white">
                       Name
@@ -63,7 +68,52 @@ const Contact = () => {
                       Start Conversation
                     </button>
                   </div>
-                </form>
+                </form> */}
+                <Accordion arrowIcon={FaArrowCircleDown}>
+                  <Accordion.Panel>
+                    <Accordion.Title>Who Am I ?</Accordion.Title>
+                    <Accordion.Content>
+                      <p className="mb-2 text-gray-500 dark:text-gray-400">
+                        I am Sadman Yasir, currently graduating in Zoology from
+                        National University Bangladesh. I am 23 years old and
+                        residing in Savar, Dhaka Bangladesh.
+                      </p>
+                    </Accordion.Content>
+                  </Accordion.Panel>
+                  <Accordion.Panel>
+                    <Accordion.Title>
+                      Why web-development while being a non-CSE ?
+                    </Accordion.Title>
+                    <Accordion.Content>
+                      <p className="mb-2 text-gray-500 dark:text-gray-400">
+                        Though being a non-CSE undergrad, I have both passion
+                        and eagerness for new technology and it gives me joy to
+                        play around with them, built something new and fun.
+                      </p>
+                    </Accordion.Content>
+                  </Accordion.Panel>
+                  <Accordion.Panel>
+                    <Accordion.Title>What are my interests ?</Accordion.Title>
+                    <Accordion.Content>
+                      <p className="mb-2 text-gray-500 dark:text-gray-400">
+                        I enjoy movies a lot. I have a passion of working with
+                        Cybersecurity. On a perfect world I might choose or
+                        CyberSecurity or Photography as my full time career.
+                      </p>
+                    </Accordion.Content>
+                  </Accordion.Panel>
+                  <Accordion.Panel>
+                    <Accordion.Title>
+                      What am I not so fond of ?
+                    </Accordion.Title>
+                    <Accordion.Content>
+                      <p className="mb-2 text-gray-500 dark:text-gray-400">
+                        Hurting peoples feelings , being dishonest, bragging
+                        about something is really some of my No Go's.
+                      </p>
+                    </Accordion.Content>
+                  </Accordion.Panel>
+                </Accordion>
               </div>
               <svg
                 class="absolute top-0 left-0 z-0 w-32 h-32 -mt-12 -ml-12 text-gray-200 fill-current"

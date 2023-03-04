@@ -2,14 +2,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 const Projects = () => {
-  
-
-  
-
   return (
-    <div className="w-[90%] mx-auto my-20">
+    <div
+      className="w-[90%] mx-auto my-20"
+      id="Projects"
+    >
       <h1
         style={{ fontFamily: "Fira Code" }}
         className="text-5xl text-center my-20 text-white font-bold"
