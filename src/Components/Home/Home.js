@@ -38,7 +38,7 @@ const Home = () => {
               deleteSpeed={100}
             ></Typewriter>
           </p>
-          <div className="sm:w-1/2 sm:mx-auto">
+          <div className="sm:w-1/2 sm:mx-auto lg:mx-2 min-[320px]:w-1/2 min-[320px]:mx-auto ">
             <button className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 mt-5 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 w-full ">
               <a
                 href="https://drive.google.com/file/d/1Cqymtz4t222L9uhwyz1Jzw17HzJ43okg/view?usp=sharing"
