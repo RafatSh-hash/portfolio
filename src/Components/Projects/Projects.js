@@ -21,7 +21,7 @@ const Projects = () => {
         MERN Stack projects
       </h1>
       <div className="flex flex-row sm:flex-col md:flex-row min-[320px]:flex-col  w-[90%] mx-auto justify-evenly">
-        <div className="bg-gray-400 lg:w-[28%] sm:my-10 rounded-lg transform transition duration-2000 hover:scale-125">
+        <div className="bg-gray-400 lg:w-[28%] my-10 rounded-lg transform transition duration-2000 hover:scale-125">
           <div class="relative w-full h-72 rounded-lg">
             <img
               src="https://i.ibb.co/WsYs0TJ/rsz-pp.png"
@@ -43,7 +43,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-400 lg:w-[28%] sm:my-10 rounded-lg transform transition duration-2000 hover:scale-125">
+        <div className="bg-gray-400 lg:w-[28%] my-10 rounded-lg transform transition duration-2000 hover:scale-125">
           <div class="relative w-full h-72 rounded-lg">
             <img
               src="https://i.ibb.co/hZMb385/GST-Rate-for-Photography-Services.png"
@@ -65,7 +65,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-400 lg:w-[28%] sm:my-10 rounded-lg transform transition duration-2000 hover:scale-125">
+        <div className="bg-gray-400 lg:w-[28%] my-10 rounded-lg transform transition duration-2000 hover:scale-125">
           <div class="relative w-full h-72 rounded-lg">
             <img
               src="https://i.ibb.co/bF6qwM7/Bit-Masters.png"
@@ -95,7 +95,7 @@ const Projects = () => {
         JavaScript projects
       </h1>
       <div className="flex flex-row sm:flex-col md:flex-row min-[320px]:flex-col w-[90%] mx-auto justify-evenly">
-        <div className="bg-gray-400 lg:w-[28%] sm:my-10 rounded-lg transform transition duration-2000 hover:scale-125">
+        <div className="bg-gray-400 lg:w-[28%] my-10 rounded-lg transform transition duration-2000 hover:scale-125">
           <div class="relative w-full h-72 rounded-lg">
             <img
               src="https://i.ibb.co/rvmsbc6/CG1.png"
@@ -117,7 +117,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-400 lg:w-[28%] sm:my-10 rounded-lg transform transition duration-2000 hover:scale-125">
+        <div className="bg-gray-400 lg:w-[28%] my-10 rounded-lg transform transition duration-2000 hover:scale-125">
           <div class="relative w-full h-72 rounded-lg">
             <img
               src="https://i.ibb.co/g7vqKdt/DN1.png"
@@ -139,7 +139,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-400 lg:w-[28%] sm:my-10 rounded-lg transform transition duration-2000 hover:scale-125">
+        <div className="bg-gray-400 lg:w-[28%] my-10 rounded-lg transform transition duration-2000 hover:scale-125">
           <div class="relative w-full h-72 rounded-lg">
             <img
               src="https://i.ibb.co/QdN1kwJ/screencapture-cool-truffle-9beffd-netlify-app-2023-03-02-14-05-16.png"

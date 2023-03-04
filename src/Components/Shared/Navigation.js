@@ -11,16 +11,18 @@ const Navigation = () => {
   return (
     <div>
       <nav class="flex items-center justify-between bg-transparent p-6 px-10  w-full  ">
-        <div class="flex items-center flex-shrink-0 text-white mr-6">
-          <img
-            className="w-14 h-14 mx-20"
-            src={Logo}
-            alt="Logo"
-          />
+        <div class="flex sm:w-[40%] min-[320px]:w-[40%] lg:w-[10%] items-center text-white mr-6">
+          <div className="w-full">
+            <img
+              className="w-full h-full "
+              src={Logo}
+              alt="Logo"
+            />
+          </div>
         </div>
 
         <div class=" lg:flex lg:flex-row lg:items-center  sm:flex sm:flex-row">
-          <div class="text-sm lg:flex lg:flex-row sm:flex sm:flex-row">
+          <div class="text-sm lg:flex lg:flex-row sm:flex sm:flex-row min-[320px]:flex min-[320px]:flex-row">
             <Link
               style={{ cursor: "pointer" }}
               to="About"

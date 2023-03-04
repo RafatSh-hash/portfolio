@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <div className="lg:flex shadow-white lg:flex-row h-auto md:flex md:flex-row sm:flex sm:flex-col justify-between items-center	 w-[90%] mx-auto rounded-b-2xl p-10">
-        <div className="w-[70%]  md:w-[70%] sm:w-full leading-10">
+        <div className="w-[70%]  md:w-[70%] sm:w-[100%] min-[320px]:w-full leading-10">
           <h1
             style={{ fontFamily: "Prompt" }}
             className="text-5xl sm:my-10 md:my-10 lg:my-5 sm:text-center min-[320px]:text-center md:text-center lg:text-left text-white font-bold"
@@ -47,7 +47,7 @@ const Home = () => {
               Check Out My Resume
             </a>
           </button>
-          <p className="mt-14 text-xl text-gray-400 text-justify w-[80%]">
+          <p className="mt-14 text-xl text-gray-400 text-justify lg:w-[80%] min-[320px]:w-full sm:w-full">
             "Being a programmer is not a task of one or several days, but a
             journey for lifetime. So Pracitce , Practice & Practice..."
           </p>
