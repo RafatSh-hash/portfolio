@@ -40,14 +40,6 @@ const Projects = () => {
                   Live Site
                 </span>
               </Link>
-              <Link>
-                <span
-                  style={{ fontFamily: "Fira Code" }}
-                  class="inline-block bg-blue-600 rounded-lg px-3 py-1 text-lg font-semibold text-white mr-2 mb-2"
-                >
-                  See Details
-                </span>
-              </Link>
             </div>
           </div>
         </div>
@@ -70,14 +62,6 @@ const Projects = () => {
                   Live Site
                 </span>
               </Link>
-              <Link>
-                <span
-                  style={{ fontFamily: "Fira Code" }}
-                  class="inline-block bg-blue-600 rounded-lg px-3 py-1 text-lg font-semibold text-white mr-2 mb-2"
-                >
-                  See Details
-                </span>
-              </Link>
             </div>
           </div>
         </div>
@@ -98,14 +82,6 @@ const Projects = () => {
                   class="inline-block bg-blue-600 rounded-lg px-3 py-1 font-semibold text-white mr-2 mb-2 text-lg"
                 >
                   Live Site
-                </span>
-              </Link>
-              <Link>
-                <span
-                  style={{ fontFamily: "Fira Code" }}
-                  class="inline-block bg-blue-600 rounded-lg px-3 py-1 text-lg font-semibold text-white mr-2 mb-2"
-                >
-                  See Details
                 </span>
               </Link>
             </div>
@@ -138,14 +114,6 @@ const Projects = () => {
                   Live Site
                 </span>
               </Link>
-              <Link>
-                <span
-                  style={{ fontFamily: "Fira Code" }}
-                  class="inline-block bg-blue-600 rounded-lg px-3 py-1 text-lg font-semibold text-white mr-2 mb-2"
-                >
-                  See Details
-                </span>
-              </Link>
             </div>
           </div>
         </div>
@@ -168,14 +136,6 @@ const Projects = () => {
                   Live Site
                 </span>
               </Link>
-              <Link>
-                <span
-                  style={{ fontFamily: "Fira Code" }}
-                  class="inline-block bg-blue-600 rounded-lg px-3 py-1 text-lg font-semibold text-white mr-2 mb-2"
-                >
-                  See Details
-                </span>
-              </Link>
             </div>
           </div>
         </div>
@@ -196,14 +156,6 @@ const Projects = () => {
                   class="inline-block bg-blue-600 rounded-lg px-3 py-1 font-semibold text-white mr-2 mb-2 text-lg"
                 >
                   Live Site
-                </span>
-              </Link>
-              <Link>
-                <span
-                  style={{ fontFamily: "Fira Code" }}
-                  class="inline-block bg-blue-600 rounded-lg px-3 py-1 text-lg font-semibold text-white mr-2 mb-2"
-                >
-                  See Details
                 </span>
               </Link>
             </div>
