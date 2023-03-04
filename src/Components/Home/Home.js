@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "../../Assets/img1.jpg";
 import { Typewriter } from "react-simple-typewriter";
-import Link from "react-router-dom";
 
 const Home = () => {
   return (
@@ -48,7 +47,7 @@ const Home = () => {
               Check Out My Resume
             </a>
           </button>
-          <p className="mt-15 text-xl text-gray-400 text-justify w-[80%]">
+          <p className="mt-14 text-xl text-gray-400 text-justify w-[80%]">
             "Being a programmer is not a task of one or several days, but a
             journey for lifetime. So Pracitce , Practice & Practice..."
           </p>

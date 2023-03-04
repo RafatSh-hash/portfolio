@@ -1,11 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { Button, Footer } from "flowbite-react";
-import Logo from "../../../../src/Assets/Logo.png";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaPhoneAlt } from "react-icons/fa";
+import { Button } from "flowbite-react";
+
+import "./footer.css";
 
 const Foot = () => {
   return (
@@ -14,19 +11,24 @@ const Foot = () => {
         aria-label="Site Footer"
         class="bg-blue-200 dark:bg-gray-900 lg:grid lg:grid-cols-5"
       >
-        <div class="relative block h-32 lg:col-span-2 lg:h-full">
-          <img
-            src="https://images.unsplash.com/photo-1642370324100-324b21fab3a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
-            alt=""
-            class="absolute inset-0 object-cover w-full h-full"
-          />
+        <div
+          id="footerImg"
+          class="relative block h-32 lg:col-span-2 lg:h-full"
+        >
+          <h1
+            style={{ fontFamily: "Dancing Script" }}
+            className="text-yellow-200 text-4xl font-bold text-center px-5 mt-14"
+          >
+            “Many times, the wrong train took me to the right place.” — Paulo
+            Coelho
+          </h1>
         </div>
 
         <div class="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
           <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
             <div>
               <p>
-                <span class="text-xs tracking-wide text-gray-500 uppercase dark:text-gray-400">
+                <span class="text-xs tracking-wide text-gray-800 uppercase dark:text-gray-400">
                   Call Me
                 </span>
 
@@ -183,7 +185,12 @@ const Foot = () => {
 
               <div>
                 <Button gradientDuoTone="purpleToBlue">
-                  <span className="text-lg">Feel free to say Hello</span>
+                  <a
+                    className="text-lg"
+                    href="https://form.jotform.com/223433253504447"
+                  >
+                    Feel free to say Hello
+                  </a>
                 </Button>
               </div>
             </div>
@@ -192,7 +199,7 @@ const Foot = () => {
           <div class="pt-12 mt-12 border-t border-gray-100 dark:border-gray-800">
             <div class="sm:flex sm:items-start sm:justify-between">
               <p class="mt-8 text-xs text-gray-500 dark:text-gray-400 sm:mt-0">
-                &copy; 2022. @SadmanYasirRafat. All rights reserved.
+                &copy; 2023. @SadmanYasirRafat. All rights reserved.
               </p>
             </div>
           </div>

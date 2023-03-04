@@ -68,7 +68,7 @@ const Navigation = () => {
           </div>
         </div>
       </nav>
-      <div className="fixed  w-14 top-[40%] bg-black shadow-md shadow-white rounded-lg justify-center align-middle lg:block sm:hidden min-[320px]:hidden md:block">
+      <div className="fixed  w-14 top-[40%] bg-gray-700 shadow-md shadow-gray-300 rounded-lg justify-center align-middle lg:block sm:hidden min-[320px]:hidden md:block">
         <div className="h-15 flex flex-col ">
           <a
             title="@Github/RafatSh-hash"
