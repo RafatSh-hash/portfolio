@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import HTML from "../../Assets/skills/HTML.png";
 import CSS from "../../Assets/skills/CSS.png";
