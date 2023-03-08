@@ -21,7 +21,7 @@ const Projects = () => {
         MERN Stack projects
       </h1>
       <div className="flex flex-row sm:flex-col md:flex-row min-[320px]:flex-col  w-[90%] mx-auto justify-evenly">
-        <div className="bg-gray-400 lg:w-[28%] my-10 rounded-lg transform transition duration-2000 hover:scale-125">
+        <div className="bg-gray-400 lg:w-[28%] my-10 rounded-lg transform transition duration-2000 hover:scale-110">
           <div class="relative w-full h-72 rounded-lg">
             <img
               src="https://i.ibb.co/WsYs0TJ/rsz-pp.png"
@@ -43,7 +43,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-400 lg:w-[28%] my-10 rounded-lg transform transition duration-2000 hover:scale-125">
+        <div className="bg-gray-400 lg:w-[28%] my-10 rounded-lg transform transition duration-2000 hover:scale-110">
           <div class="relative w-full h-72 rounded-lg">
             <img
               src="https://i.ibb.co/hZMb385/GST-Rate-for-Photography-Services.png"
@@ -65,7 +65,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-400 lg:w-[28%] my-10 rounded-lg transform transition duration-2000 hover:scale-125">
+        <div className="bg-gray-400 lg:w-[28%] my-10 rounded-lg transform transition duration-2000 hover:scale-110">
           <div class="relative w-full h-72 rounded-lg">
             <img
               src="https://i.ibb.co/bF6qwM7/Bit-Masters.png"
@@ -95,7 +95,7 @@ const Projects = () => {
         JavaScript projects
       </h1>
       <div className="flex flex-row sm:flex-col md:flex-row min-[320px]:flex-col w-[90%] mx-auto justify-evenly">
-        <div className="bg-gray-400 lg:w-[28%] my-10 rounded-lg transform transition duration-2000 hover:scale-125">
+        <div className="bg-gray-400 lg:w-[28%] my-10 rounded-lg transform transition duration-2000 hover:scale-110">
           <div class="relative w-full h-72 rounded-lg">
             <img
               src="https://i.ibb.co/rvmsbc6/CG1.png"
@@ -117,7 +117,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-400 lg:w-[28%] my-10 rounded-lg transform transition duration-2000 hover:scale-125">
+        <div className="bg-gray-400 lg:w-[28%] my-10 rounded-lg transform transition duration-2000 hover:scale-110">
           <div class="relative w-full h-72 rounded-lg">
             <img
               src="https://i.ibb.co/g7vqKdt/DN1.png"
@@ -139,7 +139,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-400 lg:w-[28%] my-10 rounded-lg transform transition duration-2000 hover:scale-125">
+        <div className="bg-gray-400 lg:w-[28%] my-10 rounded-lg transform transition duration-2000 hover:scale-110">
           <div class="relative w-full h-72 rounded-lg">
             <img
               src="https://i.ibb.co/QdN1kwJ/screencapture-cool-truffle-9beffd-netlify-app-2023-03-02-14-05-16.png"
@@ -164,7 +164,7 @@ const Projects = () => {
       </div>
       {/* <h1 style={{ fontFamily: 'Fira Code' }} className='text-5xl text-left my-32 text-white font-bold'>HTML, CSS projects</h1>
       <div className='flex flex-row sm:flex-col md:flex-row  w-[90%] mx-auto justify-evenly'>
-        <div className='bg-gray-400 rounded-lg transform transition duration-2000 hover:scale-125'>
+        <div className='bg-gray-400 rounded-lg transform transition duration-2000 hover:scale-110'>
                 <div class="relative w-full h-72 rounded-lg">
   <img src="https://i.ibb.co/QdN1kwJ/screencapture-cool-truffle-9beffd-netlify-app-2023-03-02-14-05-16.png" alt="Example image" className=" p-5 h-full transform transition duration-500 hover:scale-110 w-full rounded-lg"/>
   <p class="font-bold text-xl pb-5 text-center text-yellow-100">Type Monster</p>
