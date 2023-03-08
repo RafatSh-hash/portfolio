@@ -12,7 +12,7 @@ const Navigation = () => {
     <div>
       <nav class="flex items-center justify-between bg-transparent p-6 px-10  w-full  ">
         <div class="flex sm:w-[40%] min-[320px]:w-[40%] lg:w-[10%] items-center text-white mr-6">
-          <div className="w-full">
+          <div className="w-[60%]">
             <img
               className="w-full h-full "
               src={Logo}
