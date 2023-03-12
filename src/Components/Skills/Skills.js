@@ -13,6 +13,7 @@ import JWT from "../../Assets/skills/JWT.png";
 import Flowbite from "../../Assets/skills/Flowbite.png";
 import Figma from "../../Assets/skills/Figma.png";
 import FM from "../../Assets/skills/FM.png";
+import Daisy from "../../Assets/skills/Daisy.jpg";
 const Skills = () => {
   return (
     <div
@@ -134,6 +135,13 @@ const Skills = () => {
           <h1 className="font-bold text-white my-3 text-center">
             Framer Motion
           </h1>
+        </div>
+        <div>
+          <img
+            className="w-44 h-44 bg-red-900 p-5 rounded-full"
+            src={Daisy}
+          />
+          <h1 className="font-bold text-white my-3 text-center">Daisy UI</h1>
         </div>
       </div>
     </div>
