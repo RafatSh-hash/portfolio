@@ -14,6 +14,7 @@ import Flowbite from "../../Assets/skills/Flowbite.png";
 import Figma from "../../Assets/skills/Figma.png";
 import FM from "../../Assets/skills/FM.png";
 import Daisy from "../../Assets/skills/Daisy.jpg";
+import UIKIT from "../../Assets/skills/UIKIT.jpg";
 const Skills = () => {
   return (
     <div
@@ -142,6 +143,13 @@ const Skills = () => {
             src={Daisy}
           />
           <h1 className="font-bold text-white my-3 text-center">Daisy UI</h1>
+        </div>
+        <div>
+          <img
+            className="w-44 h-44 bg-red-900 p-5 rounded-full"
+            src={UIKIT}
+          />
+          <h1 className="font-bold text-white my-3 text-center">UI Kit</h1>
         </div>
       </div>
     </div>
